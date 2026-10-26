@@ -32,7 +32,12 @@ aside {
   top: 0;
   height: 100vh;
   overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+aside::-webkit-scrollbar { display: none; }
+
 
 aside .site-name {
   color: var(--link);
